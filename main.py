@@ -84,9 +84,9 @@ def get_bot_token():
     # Список путей для поиска токена
     env_paths = [
         'secret/token.env',
-        '/home/container/secret/token.env',
+        '/app/secret/token.env',
         '.env',
-        '/home/container/.env',
+        '/app/.env',
     ]
     
     # 1. Проверяем системные переменные
