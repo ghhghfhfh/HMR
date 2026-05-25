@@ -22,7 +22,7 @@ intents.messages = True
 intents.guilds = True
 intents.members = True
 intents.message_content = True
-intents.voice_states = True  # Для отслеживания войсов
+intents.voice_states = True  # Для отслеживания войсо
 intents.invites = True       # Для отслеживания приглашений
 
 # ===== СОЗДАНИЕ БОТА =====
